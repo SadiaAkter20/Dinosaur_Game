@@ -1,0 +1,14 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+class ChromeDinosaur$2 implements ActionListener {
+   ChromeDinosaur$2(ChromeDinosaur var1) {
+      this.this$0 = var1;
+   }
+
+   public void actionPerformed(ActionEvent var1) {
+      this.this$0.resetGame();
+      this.this$0.placeCactusTimer.start();
+      this.this$0.gameLoop.start();
+   }
+}
